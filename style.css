@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7fdbda;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+a{
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    font-family: "Inter", sans-serif;
+
+}
+
+h1 {
+    text-align: center;
+    color: #333333;
+    font-family: "Inter", sans-serif;
+
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+#new-task {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-family: "Inter", sans-serif;
+}
+
+.todo-section, .done-section {
+    margin-top: 20px;
+}
+
+h2 {
+    color: #333333;
+    border-bottom: 2px solid #7fdbda;
+    padding-bottom: 5px;
+    font-family: "Inter", sans-serif;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+
+}
+
+li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Inter", sans-serif;
+}
+
+li:hover {
+    background-color: #e0f7fa;
+}
+
+.delete-btn {
+    color: rgb(25, 25, 25);
+    border: none;
+    border-radius: 50%;
+    padding: 5px 10px;
+    cursor: pointer;
+    float: right;
+}
+
